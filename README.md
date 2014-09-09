@@ -1,4 +1,4 @@
 devfest2014
 ===========
 
-2014 GDG Beijing DevFest Websit
+2014 GDG Beijing DevFest Website
