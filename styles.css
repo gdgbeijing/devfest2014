@@ -3,57 +3,53 @@ body {
   font-family: RobotoDraft, sans-serif;
   color: #333;
   margin: 0;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  /*-webkit-user-select: none;*/
+  /*-moz-user-select: none;*/
+  /*-ms-user-select: none;*/
+  /*user-select: none;*/
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-touch-callout: none;
-}
 
-section {
-  margin: 20px;
 }
-
-a, a:hover {
-  text-decoration: none;
+core-header-panel {
+  background-color: #f0f0f0;
 }
-
-core-toolbar {
-  background-color: #455ede;
-  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
-  color: #fff;
-  font-size: 20px;
-  font-weight: 400;
-  margin-bottom: 1.5em;
-}
-
-paper-button {
-  margin: 0.5em 1em 0.5em 0;
-  width: 10em;
-}
-
-paper-button[right] {
-  position: fixed;
-  right: 0;
-}
-
-paper-checkbox {
-  margin-left: 1em;
-}
-
-paper-fab {
-  position: absolute !important;
-  top: 35px;
-  right: 1em;
-  z-index: 1;
-}
-
-paper-tabs {
-  background-color: #5677fc;
+#nav_header {
+  background-color: #3f51b5;
   color: #fff;
 }
-
-paper-tabs[noink][nobar] paper-tab.core-selected {
-  color: #ffff8d;
+#nav_header img {
+  height: 48px;
 }
+core-item {
+  font-size: 1.2em;
+}
+core-item[icon="home"].core-selected {
+  color: #0266C8;
+}
+core-item[icon="explore"].core-selected {
+  color: #F90101;
+}
+core-item[icon="schedule"].core-selected {
+  color: #F2B50F;
+}
+core-item[icon="room"].core-selected {
+  color: #0266C8;
+}
+core-item[icon="info"].core-selected {
+  color: #00933B;
+}
+core-item[icon="group-work"].core-selected {
+  color: #F90101;
+}
+core-scaffold::shadow core-toolbar {
+  background-color: #3f51b5;
+}
+#content-container {
+  background-color: white;
+}
+#content-pages {
+  height: 100%;
+  overflow:auto;
+}
+

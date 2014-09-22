@@ -8,6 +8,10 @@
   "private": true,
   "dependencies": {
     "polymer": "Polymer/polymer#master",
-    "paper-elements": "Polymer/paper-elements#master"
+    "core-scaffold": "Polymer/core-scaffold",
+    "core-ajax": "Polymer/core-ajax",
+    "core-animated-pages": "Polymer/core-animated-pages",
+    "paper-elements": "Polymer/paper-elements#master",
+    "google-map": "PolymerLabs/google-map"
   }
 }
