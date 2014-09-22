@@ -1,0 +1,157 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/core-icons/maps-icons.html">
+<link rel="import" href="bower_components/core-icons/core-icons.html">
+
+<polymer-element name="event-schedule" noscript>
+  <template>
+    <style>
+      .container {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      table {
+        width: 100%;
+        font-size: 1.2em;
+        border:#ccc 1px solid;
+      }
+      table thead {
+        background-color: #4184f3;
+        color: #fff;
+        font-weight: bold;
+      }
+      table td {
+        position: relative;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        background-color: #c5d9fb;
+      }      
+      tbody {
+        text-align: center;
+      }
+      table td, table th {
+        padding: 7px;
+      }
+      td img {
+        display: none;
+      }     
+
+      @media (min-width: 1120px) {
+        .container {
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 800px; 
+        }
+      }         
+      @media screen and (max-width: 600px), (min-width: 751px) and (max-width: 930px) {
+        table thead {
+          display: none;
+        }
+        table td {
+          display: block;
+          border-bottom: white 1px solid;
+          position: relative;
+          padding-top: 13px;
+          padding-bottom: 13px;
+          text-align: left;
+          background-color: #c5d9fb;
+        }
+        td img, td core-icon {
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+        }
+        .time {
+          background-color: #4184f3;
+          color: #fff;
+          font-weight: bold;
+        }
+        .nosession {
+          display: none;
+        }
+        .break {
+          color: green;
+        }        
+      }      
+    </style>
+    <div class="container">
+      <h1>日程安排</h1>
+      <p>本次活动由 Android 、Web 和 Codelab 三个分会场组成。Android 和 Web 会场是两个大型阶梯教室，也是本次活动的主会场。Codelab 是小型会议室，仅下午开放。</p>
+      <p>内容安排持续更新中，敬请关注。</p>
+      <table>
+        <thead>
+           <tr>
+             <th>时间</th>
+             <th>Android 分会场</th>
+             <th>Web 分会场</th>
+             <th>Codelab 分会场</th>
+           </tr>
+        </thead>
+        <tbody>
+         <tr>
+            <td class="time">8:30</td>
+            <td colspan="2">签到入场</td>
+            <td rowspan="6" class="nosession">-</td>
+          </tr>
+          <tr>
+            <td class="time">9:30</td>
+            <td colspan="2">开场介绍</td>
+          </tr>
+          <tr>
+            <td class="time">10:00</td>
+            <td><img src="images/icons/android.svg">走进 Android Wear</td>
+            <td><img src="images/icons/chrome.svg">理解响应式 Web 设计</td>
+          </tr>
+          <tr>
+            <td class="time">10:50</td>
+            <td><img src="images/icons/android.svg">出门问问 Android Wear 开发故事</td>
+            <td><img src="images/icons/chrome.svg">确认中</td>
+          </tr>
+          <tr>
+            <td class="time">11:40</td>
+            <td colspan="2" class="break"><core-icon icon="maps:local-restaurant"></core-icon>午餐</td>
+          </tr>
+          <tr>
+            <td class="time">13:00</td>
+            <td><img src="images/icons/android.svg">Designing Material</td>
+            <td><img src="images/icons/chrome.svg">Polymer - 欢迎来到明天的世界</td>
+          </tr>
+          <tr>
+            <td class="time">13:50</td>
+            <td><img src="images/icons/android.svg">Android L 启示与变化</td>
+            <td><img src="images/icons/chrome.svg">确认中</td>
+            <td><img src="images/icons/laboratory.png">Polymer Codelab</td>
+          </tr>
+          <tr>
+            <td class="time">14:40</td>
+            <td colspan=3 class="break"><core-icon icon="maps:local-cafe"></core-icon>茶歇</td>
+          </tr>
+          <tr>
+            <td class="time">15:00</td>
+            <td><img src="images/icons/android.svg">确认中</td>
+            <td><img src="images/icons/chrome.svg">待定</td>
+            <td><img src="images/icons/laboratory.png">Android Wear Codelab</td>
+          </tr>
+          <tr>
+            <td class="time">15:50</td>
+            <td><img src="images/icons/android.svg">确认中</td>
+            <td><img src="images/icons/chrome.svg">待定</td>
+            <td><img src="images/icons/laboratory.png">待定</td>
+          </tr>     
+          <tr>
+            <td class="time">16:40</td>
+            <td><img src="images/icons/android.svg">圆桌论坛</td>
+            <td><img src="images/icons/chrome.svg">待定</td>
+            <td class="nosession">-</td>
+          </tr>     
+          <tr>
+            <td class="time">17:30</td>
+            <td colspan=3>大会结束</td>
+          </tr>           
+        </tbody>
+      </table>
+    </div>
+    
+  </template>
+</polymer-element>

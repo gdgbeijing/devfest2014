@@ -1,0 +1,38 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<polymer-element name="event-footer" noscript>
+  <template>
+    <style>
+      #follow {
+        margin-top: 20px;
+      }
+      #follow a {
+        padding: 10px;
+        color: #212121;
+      }
+      #follow a img {
+        vertical-align: middle;
+        width: 24px;
+        height: 24px;
+      }      
+      #follow span {
+        font-size: 90%;
+        vertical-align: middle;
+        display: inline-block;
+      }
+      footer {
+        font-size: 12px;
+        color: #777;
+      }      
+    </style>
+    <div id="follow" layout horizontal center-justified wrap>
+      <a href="https://plus.google.com/+GdgbeijingOrg/posts"><img src="images/icons/gplus.png"><span>&nbsp;Google+</span></a>
+      <a href="https://groups.google.com/forum/?fromgroups#!forum/beijing-gtug"><img src="images/icons/groups.png"><span>&nbsp;邮件列表</span></a>
+      <a href="http://www.chinagdg.com/forum-2-1.html"><img src="images/icons/discuz.jpg"><span>&nbsp;国内论坛</span></a>
+      <a href="images/img/wechat_qrcode.jpg"><img src="images/icons/weixin.png"><span>&nbsp;GDG_Beijing</span></a>
+      <a href="http://weibo.com/gtug"><img src="images/icons/weibo.png"><span>&nbsp;@北京GDG</span></a>
+      <a href="https://github.com/gdgbeijing"><img src="images/icons/github.png"><span>&nbsp;/gdgbeijing</span></a>
+    </div>
+    <footer layout horizontal center-justified>&copy; 2014 北京GDG</footer>        
+  </template>
+</polymer-element>

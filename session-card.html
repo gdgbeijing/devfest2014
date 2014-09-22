@@ -1,0 +1,89 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/core-icon-button/core-icon-button.html">
+
+<polymer-element name="session-card" attributes="sessionid">
+  <template>
+    <style>
+    :host {
+      margin: 3px;
+      display: block;
+      position: relative;
+      width: 100%;
+      font-size: 1.0rem;
+      font-weight: 300;
+      color: white;
+      height: 200px;
+    }
+    .card-header {
+      margin-bottom: 10px;
+    }
+    polyfill-next-selector { content: '.title'; }
+    .card-header ::content .title {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+    polyfill-next-selector { content: '.card-header img'; }
+    .card-header ::content img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 10px;
+    }
+    core-icon-button {
+      position: absolute;
+      top: 3px;
+      right: 3px;
+      color: #9e9e9e;
+    }
+    :host([favorite]) core-icon-button {
+      color: #da4336;
+    }
+    @media (min-width: 500px) {
+      :host {
+        width: 48.5%;
+      }
+    }
+    @media (min-width: 1000px) {
+      :host {
+        width: 32.3%;
+      }
+    }    
+    </style>
+    
+    <div class="card-header" layout vertical center on-tap="{{ showDetail }}">
+        <content select="img"></content>
+        <content select="p"></content>
+        <content select=".title"></content>
+    </div>
+
+    <core-icon-button
+      id="favicon"
+      icon="favorite"
+      on-tap="{{favoriteTapped}}">
+    </core-icon-button>
+    <core-localstorage name="session-card-{{sessionid}}" value="{{favorite}}"></core-localstorage>
+
+    <paper-shadow z="2"></paper-shadow>
+  </template>
+  <script>
+  Polymer({
+    sessionid: -1,
+    publish: {
+      favorite: {
+        value: false,
+        reflect: true
+      }
+    },
+    favoriteTapped: function(event, detail, sender) {
+      event.stopPropagation();//stop tap event
+      
+      if(this.sessionid < 0){ // not published session
+        return;
+      }
+      this.favorite = !this.favorite;
+      this.fire('favorite-tap');
+    }
+  });
+  </script>
+</polymer-element>

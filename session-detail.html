@@ -1,0 +1,87 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/core-icon-button/core-icon-button.html">
+<link rel="import" href="bower_components/core-overlay/core-overlay.html">
+
+<polymer-element name="session-detail">
+	<template>
+		<style>
+			:host {
+				/*box-sizing: border-box;*/
+				/*-moz-box-sizing: border-box;*/
+				/*border-radius: 3px;*/
+				font-size: 13px;
+				overflow: hidden;
+				background: white;
+				width: 100%;
+				max-width: 500px;
+				/*padding:30px 42px;*/
+				/*outline: 1px solid rgba(0,0,0,0.2);*/
+				/*box-shadow: 0 4px 16px rgba(0,0,0,0.2);*/
+			}
+			polyfill-next-selector { content: 'img'; }
+			::content img {
+			  width: 80px;
+			  height: 80px;
+			  border-radius: 50%;
+			}
+			polyfill-next-selector { content: '.title'; }
+			::content .title {
+			  color : white;
+			}
+			polyfill-next-selector { content: '.speaker'; }
+			::content .speaker {
+			  font-weight: 600;
+			  font-size: 14px;
+			}
+			polyfill-next-selector { content: 'h2'; }
+			::content h2 {
+			  margin: 0px;
+			  padding: 40px 20px 20px 20px;
+			}
+			.detailcontent {
+			  padding-left: 15px;
+			  padding-right: 15px;
+			  padding-bottom: 15px;
+			}			
+			.sp_container {
+			  padding-left: 15px;
+			}
+      core-icon-button {
+        position: absolute;
+        top: 3px;
+        right: 3px;
+      }			
+		</style>
+		
+		<core-icon-button icon="close" on-tap="{{close}}"></core-icon-button>
+    <content select="h2"></content>
+    <div class="detailcontent">
+      <content select="p"></content>
+      <hr>
+      <div horizontal layout center>
+        <div><content select="img"></content></div>
+        <div flex class="sp_container">
+          <div><content select=".speaker"></content></div>
+          <div><content select=".speakerdesc"></content></div>
+        </div>
+      </div>
+    </div>
+		
+		<core-overlay id="overlay" backdrop ></core-overlay>
+	</template>
+	<script>
+
+	Polymer('session-detail', {
+		ready: function() {
+			this.$.overlay.target = this;
+		},
+		toggle: function() {
+		  this.$.overlay.toggle();
+		},
+		close: function() {
+		  this.$.overlay.close();
+		}
+	});
+
+	</script>
+</polymer-element>

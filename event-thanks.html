@@ -1,0 +1,58 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<polymer-element name="event-thanks" noscript>
+  <template>
+    <style>
+      #container {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      @media (min-width: 1120px) {
+        #container {
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 800px; 
+        }
+      }    
+      section {
+        padding-bottom: 20px;
+      }
+      figure {
+        margin-top: 40px;
+      }
+      #google {
+        width: 80%;
+        max-width: 400px;
+      }
+      #BHsoft {
+        width: 80%;
+        max-width: 301px;        
+      }
+    </style>
+    <div id="container">
+      <section>
+        <h2>支持单位：</h2>
+        <figure>
+          <img id="google" src="images/logo/google_logo.svg">
+          <figcaption>本次活动由 Google 独家赞助。</figcaption>
+        </figure>
+          
+        <figure>
+          <img id="BHsoft" src="images/logo/BHsoft.png">
+          <figcaption>感谢北航软件学院对本次活动的工作支持。</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>志愿者名单：</h2>
+        <ul>
+          <li>韩国恺，活动负责人兼网站制作</li>
+          <li>江昪，协助组织</li>
+          <li>王玮，协助组织</li>
+        </ul>
+        <p>本次活动完全由志愿者组织，所有志愿者名单都将出现在这里！</p>
+      </section>
+    </div>
+  </template>
+</polymer-element>

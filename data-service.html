@@ -1,0 +1,33 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/core-ajax/core-ajax.html">
+
+<polymer-element name="post-service" attributes="sessions">
+  <template>
+    <style>
+    :host {
+      display: none;
+    }
+    </style>
+    <core-ajax id="ajax"
+      auto
+      url="session-data.json"
+      on-core-response="{{postsLoaded}}"
+      handleAs="json">
+    </core-ajax>
+  </template>
+  <script>
+  Polymer('post-service', {
+    created: function() {
+      this.sessions = {};
+    },
+    postsLoaded: function() {
+      this.sessions = this.$.ajax.response;
+    },
+
+    setFavorite: function(uid, isFavorite) {
+      // no service backend, just log the change
+      // console.log('Favorite changed: ' + uid + ", now: " + isFavorite);
+    }
+  });
+  </script>
+</polymer-element>

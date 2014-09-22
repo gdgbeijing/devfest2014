@@ -1,0 +1,67 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/core-header-panel/core-header-panel.html">
+<link rel="import" href="bower_components/core-icons/maps-icons.html">
+<link rel="import" href="bower_components/core-icons/core-icons.html">
+<!-- Change this to standard google-map.html in bower_components folder if you are not in China-->
+<link rel="import" href="google-map/google-map.html">
+
+<polymer-element name="event-map" noscript>
+  <template>
+    <style>
+    core-header-panel {
+      height: 100%;
+      width: 100%;   
+    }
+    p {
+      margin: 3px;
+    }
+    #description {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 10px;
+      margin-bottom: 5px;   
+    }
+    google-map {
+      display: block;
+    }      
+    core-icon {
+      color: #3f51b5;
+    }
+    @media (max-height: 650px) {
+      #description {
+        display: none;
+      }
+    }    
+    </style>
+    <core-header-panel flex>
+      <div id="description" class="core-header">
+        <p><core-icon icon="alarm"></core-icon>活动时间：10月26日，9:00-18:00。</p>
+        <p><core-icon icon="maps:place"></core-icon>活动地点：北航新主楼，第一、第二报告厅。</p>
+        <p><core-icon icon="maps:directions-bus"></core-icon>乘车路线：地铁10号线西土城站，向北走300米。</p>
+      </div>
+
+      <!-- replace your map apiKey -->
+      <google-map id="map" fit
+          latitude="39.980887"
+          longitude="116.352079"
+          apiKey="AIzaSyCJj0WxfF37mEN93poV4XO760RK1EQEMrk"
+          zoom="16">
+        <google-map-marker
+            latitude="39.98103906847377"
+            longitude="116.35196094523008"
+            icon="images/icons/spotlight-poi.png">
+            <p><core-icon icon="account-balance"></core-icon>主会场：北航新主楼</p>
+            <p>第一、第二报告厅</p>
+            <p>9:00-18:00</p>
+        </google-map-marker>
+        <google-map-marker
+            latitude="39.98177073774028"
+            longitude="116.34788398752744"
+            icon="images/icons/spotlight-poi.png">
+            <p><core-icon icon="maps:local-restaurant"></core-icon>午餐地点：北航培训餐厅3楼</p>
+            <p>12:40-13:00</p>
+        </google-map-marker>      
+      </google-map>   
+    </core-header-panel>
+  </template>
+</polymer-element>
