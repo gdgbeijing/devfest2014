@@ -26,7 +26,7 @@
 
 4. 将代码放在任何网站服务器下面，例如Apache HTTPd。
 
-代码是从https://github.com/gdgbeijing/devfest2014复制来的。下面是原作者的readme
+代码是从https://github.com/gdgbeijing/devfest2014 复制来的。下面是原作者的readme
 
 devfest2014
 ===========
