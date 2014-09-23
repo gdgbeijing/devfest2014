@@ -22,11 +22,11 @@
 
  要执行上一行命令，需要先安装nodejs。见http://nodejs.org
 
- 代码是从https://github.com/gdgbeijing/devfest2014复制来的。下面是原作者的readme
-
 3. 为了用Google Map，需要为你的域名设置专用的api key。
 
 4. 将代码放在任何网站服务器下面，例如Apache HTTPd。
+
+代码是从https://github.com/gdgbeijing/devfest2014复制来的。下面是原作者的readme
 
 devfest2014
 ===========
