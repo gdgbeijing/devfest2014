@@ -2,8 +2,7 @@
   "name": "devfest2014",
   "description": "",
   "homepage": "",
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "",
   "private": true,
   "dependencies": {
@@ -13,5 +12,24 @@
     "core-animated-pages": "Polymer/core-animated-pages",
     "paper-elements": "Polymer/paper-elements#master",
     "google-map": "PolymerLabs/google-map"
+  },
+  "resolutions": {
+    "polymer": "master",
+    "core-style": "master",
+    "core-selector": "master",
+    "core-transition": "master",
+    "core-header-panel": "master",
+    "core-drawer-panel": "master",
+    "core-icon-button": "master",
+    "core-toolbar": "master",
+    "platform": "master",
+    "core-component-page": "master",
+    "core-selection": "master",
+    "core-meta": "master",
+    "core-media-query": "master",
+    "core-icons": "master",
+    "core-icon": "master",
+    "core-iconset-svg": "master",
+    "core-iconset": "master"
   }
 }
