@@ -3,65 +3,125 @@
     {
       "id": 11,
       "bgcolor": "#3f51b5",
+<<<<<<< HEAD
+      "name": "xxxx",
+      "title": "xxxx",
+	  
+      "avatar": "images/speakers/lsf.jpg",
+      "desc_speaker": "xxxxxxxxxx",
+      "desc_content": "xxxxxxxxxxxx。"
+=======
       "name": "李松峰",
       "title": "理解响应式 Web 设计",
       "avatar": "images/speakers/lsf.jpg",
       "desc_speaker": "图灵 QA 部主任。2006年起投身技术翻译，出版过译著20余部，包括《JavaScript高级程序设计》、《简约至上》等。",
       "desc_content": "移动互联网时代到来，响应式 Web 设计应运而生。本次演讲将在回顾 Web 设计历史的基础上，全面介绍响应式 Web 设计的核心概念。如果你还不了解什么是响应式 Web 设计，那么这次讲座将让你明白它的来龙去脉。如果你已经知道什么是响应式 Web 设计，本次讲座也可以加深你对它的理解。"
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
     },
     {
       "id": 12,
       "bgcolor": "#03a9f4",
+<<<<<<< HEAD
+      "name": "xxxx",
+      "title": "xxxxx",
+	  
+      "avatar": "images/speakers/unbug.jpg",
+      "desc_speaker": "xxxxxx",
+      "desc_content": "xxxxxxxxxxx"
+=======
       "name": "李高禄",
       "title": "Polymer - 欢迎来到明天的世界",
       "avatar": "images/speakers/unbug.jpg",
       "desc_speaker": "MIHTool 作者，Polymer 中文社区组织者，就职于网易。",
       "desc_content": "将 Polymer 最光彩夺目的一面给大家做个充分的展示，介绍 Polymer 已经完善的 API，包括 Material Design 的实现。及如何通过 Polymer Designer 可视化工具和 Chrome Dev Editor 编辑器快速创建基于的项目。"
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
     },
     {
       "id": -1,
       "bgcolor": "#33691e",
+<<<<<<< HEAD
+      "name": "xxxx",
+      "title": "xxxx",
+	  
+      "avatar": "images/speakers/placeholder.jpg",
+      "desc_speaker": "",
+      "desc_content": "xxxx"
+=======
       "name": "确认中",
       "title": "Grunt/Gulp、Bower、Yeoman",
       "avatar": "images/speakers/placeholder.jpg",
       "desc_speaker": "",
       "desc_content": "稍后更新.."
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
     },
     {
       "id": -1,
       "bgcolor": "#7e57c2",
+<<<<<<< HEAD
+      "name": "xxxxx",
+      "title": "xxxxxx",
+	  
+      "avatar": "images/speakers/placeholder.jpg",
+      "desc_speaker": "",
+      "desc_content": "xxxxxx"
+=======
       "name": "确认中",
       "title": "UX/Design 主题",
       "avatar": "images/speakers/placeholder.jpg",
       "desc_speaker": "",
       "desc_content": "稍后更新.."
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
     },
     {
       "id": -1,
       "bgcolor": "#78909c",
       "name": "",
+<<<<<<< HEAD
+      "title": "xx",
+	  
+      "avatar": "images/speakers/placeholder.jpg",
+      "desc_speaker": "",
+      "desc_content": "xxxxx"
+=======
       "title": "Coming soon",
       "avatar": "images/speakers/placeholder.jpg",
       "desc_speaker": "",
       "desc_content": "稍后更新.."
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
     },
     {
       "id": -1,
       "bgcolor": "#78909c",
       "name": "",
+<<<<<<< HEAD
+      "title": "x",
+	  
+      "avatar": "images/speakers/placeholder.jpg",
+      "desc_speaker": "",
+      "desc_content": "xxxxxx"
+=======
       "title": "Coming soon",
       "avatar": "images/speakers/placeholder.jpg",
       "desc_speaker": "",
       "desc_content": "稍后更新.."
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
     },
     {
       "id": -1,
       "bgcolor": "#78909c",
       "name": "",
+<<<<<<< HEAD
+      "title": "x",
+	  
+      "avatar": "images/speakers/placeholder.jpg",
+      "desc_speaker": "",
+      "desc_content": "xxxxxx"
+=======
       "title": "Coming soon",
       "avatar": "images/speakers/placeholder.jpg",
       "desc_speaker": "",
       "desc_content": "稍后更新.."
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
     }
   ],
   
@@ -69,61 +129,125 @@
     {
       "id": 1,
       "bgcolor": "#7e57c2",
+<<<<<<< HEAD
+      "name": "xxxxxx",
+      "title": "x",
+	  
+      "avatar": "images/speakers/nova.jpg",
+      "desc_speaker": "xxxxxxx",
+      "desc_content": "ssssss"
+=======
       "name": "徐梓桁",
       "title": "Material Design",
       "avatar": "images/speakers/nova.jpg",
       "desc_speaker": "网名 NovaDNG,《Android App 视觉与体验设计指南》作者。",
       "desc_content": "简要介绍来自 Google 的最新设计风格 Material Design 。"
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
     },
     {
       "id": 4,
       "bgcolor": "#009688",
+<<<<<<< HEAD
+      "name": "xxxxxxx",
+      "title": "xxxxxxx",
+	  
+      "avatar": "images/speakers/duguguiyu.png",
+      "desc_speaker": "xxxxxxxx",
+      "desc_content": "xxxxxxxxxx"
+=======
       "name": "范怀宇",
       "title": "走进 Android Wear",
       "avatar": "images/speakers/duguguiyu.png",
       "desc_speaker": "豌豆荚应用平台技术负责人，《Android 开发精要》作者，关注 Android 技术的发展和实践。",
       "desc_content": "介绍 Android Wear 背后的一些技术设计思想。"
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
     },
     {
       "id": 3,
       "bgcolor": "#5677fc",
+<<<<<<< HEAD
+      "name": "xxxxxxx",
+      "title": "xxxxxxxxxxx",
+	  
+      "avatar": "images/speakers/xm.jpg",
+      "desc_speaker": "xxxxxxxxxxx",
+      "desc_content": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+=======
       "name": "马骥良",
       "title": "出门问问 Android Wear 开发故事",
       "avatar": "images/speakers/xm.jpg",
       "desc_speaker": "出门问问 Android Wear 产品经理。美国威斯康辛大学工业与系统工程、应用数学双学士学位。",
       "desc_content": "1. 出门问问在开发 Google Glass，Android Wear时所遇到的各种趣事，难事。2. 开发人员在开发 Google Glass 的时候，应该注意些什么？有什么坑？需要从哪方面下手学习比较快。和开发正常的 Android 项目最大的区别是什么？ 3. Google Glass, Android Wear 系统与 Android 系统的渊源。4. 从 Google Glass，Android Wear 的产品角度看谷歌的布局。"
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
     },
     {
       "id": 2,
       "bgcolor": "#29b6f6",
+<<<<<<< HEAD
+      "name": "xxxxxxxxxxx",
+      "title": "xxxxxxxxxxx",
+	  
+      "avatar": "images/speakers/zhaoka.jpg",
+      "desc_speaker": "xxxxxxxxxxx",
+      "desc_content": "xxxxxxxxxxx"
+=======
       "name": "赵坤安",
       "title": "Android L 启示与变化",
       "avatar": "images/speakers/zhaoka.jpg",
       "desc_speaker": "原深度OS框架工程师，现任 GitCafe Android 开发工程师。对 Android Framework 及 Android App 都有丰富的开发经验。",
       "desc_content": "介绍 Android L Preview SDK 中加入的新控件，以及如何如何用第三方开源库编写出更符合 Material Design 风格的 App 。"
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
     },
     {
       "id": 5,
       "bgcolor": "#3f51b5",
+<<<<<<< HEAD
+      "name": "xxxxxxxxxxx",
+      "title": "xxxxxxxxxxx",
+	  
+      "avatar": "images/speakers/dpf.jpg",
+      "desc_speaker": "xxxxxxxxxxx",
+      "desc_content": "xxxxxxxxxxx"
+=======
       "name": "邓凡平",
       "title": "主题待定",
       "avatar": "images/speakers/dpf.jpg",
       "desc_speaker": "《深入理解Android》作者。",
       "desc_content": "稍后更新.."
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
     },
     {
       "id": 6,
       "bgcolor": "#795548",
+<<<<<<< HEAD
+      "name": "xxxxxxxxxxx",
+      "title": "xxxxxxxxxxx",
+	  
+      "avatar": "images/speakers/RoundTable.png",
+      "desc_speaker": "xxxxxxxxxxxxxxxxxxxxxx",
+      "desc_content": "xxxxxxxxxxxxxxxxxxxxxx"
+=======
       "name": "圆桌论坛",
       "title": "Android Wear与可穿戴计算",
       "avatar": "images/speakers/RoundTable.png",
       "desc_speaker": "主持人：葛涵涛，移动新观察总编。嘉宾：1、Bill Luan(确认中)。2、投资机构代表 (确认中)。3、中国可穿戴计算联盟代表(确认中)。4、Heng Guan，“车托帮”车载事业部总经理。5、Sony移动代表(确认中)",
       "desc_content": "在本次论坛中，将围绕Android Wear平台展开研讨，我们会邀请到来自Google、硬件开发商、产业联盟、投资机构、软件开发商/开发者代表等，一起和大家聊聊Android Wear平台在未来将如何引领市场发展方向，将带给国内创业者带来哪些新的机会。"
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
     },
     {
       "id": -1,
       "bgcolor": "#78909c",
       "name": "",
+<<<<<<< HEAD
+      "title": "xxxxxxxxxxx",
+	  
+      "avatar": "images/speakers/placeholder.jpg",
+      "desc_speaker": "",
+      "desc_content": "xxxxxxxxxxx"
+    }
+  ],  
+
+=======
       "title": "Coming soon",
       "avatar": "images/speakers/placeholder.jpg",
       "desc_speaker": "",
@@ -131,30 +255,54 @@
     }
   ],  
   
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
   "codelab": [
     {
       "id": 21,
       "bgcolor": "#03a9f4",
+<<<<<<< HEAD
+      "name": "xxxxxxxxxxx",
+      "title": "xxxxxxxxxxx",
+	  
+      "avatar": "images/speakers/unbug.jpg",
+      "desc_speaker": "xxxxxxxxxxx",
+      "desc_content": "xxxxxxxxxxxxxxxxxxxxxx"
+=======
       "name": "李高禄",
       "title": "Polymer Codelab",
       "avatar": "images/speakers/unbug.jpg",
       "desc_speaker": "MIHTool作者，Polymer中文社区组织者，就职于网易。",
       "desc_content": "你的第一个 Polymer 应用程序。http://docs.polymerchina.org/docs/start/tutorial/intro.html 。你将一步一步构建一个小小的 Polymer 应用程序 – 一个非常基础的社交类客户端。"
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
     },
     {
       "id": 22,
       "bgcolor": "#8bc34a",
+<<<<<<< HEAD
+      "name": "xxxxxxxxxxx",
+      "title": "xxxxxxxxxxx",
+	  
+      "avatar": "images/speakers/placeholder.jpg",
+      "desc_speaker": "",
+      "desc_content": "xxxxxxxxxxx"
+=======
       "name": "确认中",
       "title": "Android Wear Codelab",
       "avatar": "images/speakers/placeholder.jpg",
       "desc_speaker": "",
       "desc_content": "稍后更新.."
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
     },
     {
       "id": -1,
       "bgcolor": "#78909c",
       "name": "",
+<<<<<<< HEAD
+      "title": "xxxxxxxxxxx",
+	  
+=======
       "title": "Coming soon",
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
       "avatar": "images/speakers/placeholder.jpg",
       "desc_speaker": "",
       "desc_content": ""
