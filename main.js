@@ -27,7 +27,11 @@ function hash_nav() {
         map.async(function(){
           map.resize();
           if(map.map) { // map has ready
+<<<<<<< HEAD
+            map.map.setCenter(new google.maps.LatLng(31.274677,120.738121),1)
+=======
             map.map.setCenter(new google.maps.LatLng(39.980887,116.352079),1)
+>>>>>>> 95f2856755b8548b554b7338726f1a52e0ca2c91
           }
         });
       }
