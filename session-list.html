@@ -78,7 +78,7 @@
               <session-card cross-fade
                 sessionid="{{ session.id }}"
                 on-tap="{{ showDetail }}"
-                style="background-color: {{ session.bgcolor }} ;" 
+                _style="background-color: {{ session.bgcolor }} " 
                 on-favorite-tap="{{handleFavorite}}" >
                 <img src="{{session.avatar}}">
                 <p>{{session.name}}</p>
@@ -92,7 +92,7 @@
     </core-scroll-header-panel>
     
     <session-detail id="detail">
-      <h2 style="background-color: {{ detailSession.bgcolor }} " class="title">{{ detailSession.title }}</h2>
+      <h2 _style="background-color: {{ detailSession.bgcolor }} " class="title">{{ detailSession.title }}</h2>
       <p>{{ detailSession.desc_content }}</p>
       <img src="{{ detailSession.avatar}} ">
       <span class="speaker">{{ detailSession.name }}</span>
