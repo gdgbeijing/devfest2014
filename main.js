@@ -13,7 +13,8 @@ function init(){
 function hash_nav() { 
   var nav_links = document.querySelectorAll('core-menu core-item a');
   for(var i = 0; i < nav_links.length; i++){
-    if(nav_links[i].hash === window.location.hash){
+    var link_hash = nav_links[i].hash == "" ? "#" : nav_links[i].hash;
+    if(link_hash === window.location.hash){
       document.querySelector('#nav_menu').selected = i;
       document.querySelector('#content-pages').selected = i;
       document.querySelector('#scaffold').closeDrawer();
