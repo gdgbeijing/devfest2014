@@ -26,7 +26,7 @@
         padding-top: 13px;
         padding-bottom: 13px;
         background-color: #c5d9fb;
-      }      
+      }
       tbody {
         text-align: center;
       }
@@ -35,15 +35,15 @@
       }
       td img {
         display: none;
-      }     
+      }
 
       @media (min-width: 1120px) {
         .container {
           margin-left: auto;
           margin-right: auto;
-          max-width: 800px; 
+          max-width: 800px;
         }
-      }         
+      }
       @media screen and (max-width: 600px), (min-width: 751px) and (max-width: 930px) {
         table thead {
           display: none;
@@ -72,8 +72,8 @@
         }
         .break {
           color: green;
-        }        
-      }      
+        }
+      }
     </style>
     <div class="container">
       <h1>日程安排</h1>
@@ -92,21 +92,25 @@
          <tr>
             <td class="time">8:30</td>
             <td colspan="2">签到入场</td>
-            <td rowspan="6" class="nosession">-</td>
+            <td rowspan="7" class="nosession">-</td>
           </tr>
           <tr>
-            <td class="time">9:30</td>
+            <td class="time">9:00</td>
             <td colspan="2">开场介绍</td>
+          </tr>
+          <tr>
+            <td class="time">9:20</td>
+            <td colspan="2">Keynote by Bill Luan</td>
           </tr>
           <tr>
             <td class="time">10:00</td>
             <td><img src="images/icons/android.svg">走进 Android Wear</td>
-            <td><img src="images/icons/chrome.svg">理解响应式 Web 设计</td>
+            <td><img src="images/icons/chrome.svg">游戏规则改变者 Service Worker</td>
           </tr>
           <tr>
             <td class="time">10:50</td>
             <td><img src="images/icons/android.svg">出门问问 Android Wear 开发故事</td>
-            <td><img src="images/icons/chrome.svg">确认中</td>
+            <td><img src="images/icons/chrome.svg">理解响应式 Web 设计</td>
           </tr>
           <tr>
             <td class="time">11:40</td>
@@ -120,7 +124,7 @@
           <tr>
             <td class="time">13:50</td>
             <td><img src="images/icons/android.svg">Android L 启示与变化</td>
-            <td><img src="images/icons/chrome.svg">确认中</td>
+            <td><img src="images/icons/chrome.svg">工具化的前端类库开发</td>
             <td><img src="images/icons/laboratory.png">Polymer Codelab</td>
           </tr>
           <tr>
@@ -129,29 +133,27 @@
           </tr>
           <tr>
             <td class="time">15:00</td>
-            <td><img src="images/icons/android.svg">确认中</td>
-            <td><img src="images/icons/chrome.svg">待定</td>
+            <td><img src="images/icons/android.svg">Material Design 与 Google Play</td>
+            <td><img src="images/icons/chrome.svg">NodeJS 酸奶框架</td>
             <td><img src="images/icons/laboratory.png">Android Wear Codelab</td>
           </tr>
           <tr>
             <td class="time">15:50</td>
-            <td><img src="images/icons/android.svg">确认中</td>
-            <td><img src="images/icons/chrome.svg">待定</td>
-            <td><img src="images/icons/laboratory.png">待定</td>
-          </tr>     
+            <td rowspan=2 ><img src="images/icons/android.svg">闪电演讲1-6</td>
+            <td><img src="images/icons/chrome.svg">AngularJS与无后端开发实践</td>
+            <td rowspan=2 ><img src="images/icons/laboratory.png">-</td>
+          </tr>
           <tr>
             <td class="time">16:40</td>
-            <td><img src="images/icons/android.svg">圆桌论坛</td>
-            <td><img src="images/icons/chrome.svg">待定</td>
-            <td class="nosession">-</td>
-          </tr>     
+            <td><img src="images/icons/chrome.svg">豆瓣东西在响应式设计中的实践</td>
+          </tr>
           <tr>
             <td class="time">17:30</td>
             <td colspan=3>大会结束</td>
-          </tr>           
+          </tr>
         </tbody>
       </table>
     </div>
-    
+
   </template>
 </polymer-element>
