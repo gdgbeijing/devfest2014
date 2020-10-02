@@ -3,7 +3,7 @@ devfest2014
 
 2014 GDG Beijing DevFest Website.
 
-This is a polymer web app, it follow Google material design and responsive web design rule.
+This is a polymer web app, it follow Google material design and responsive web design rule , itlooks realy amazing.
 
 At the project root directory, use <code>bower install</code> command to install dependences. About bower see http://bower.io/ .
 
