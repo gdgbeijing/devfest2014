@@ -1,7 +1,7 @@
-devfest2014
+devfest2020
 ===========
 
-2014 GDG Beijing DevFest Website.
+2020 GDG Beijing DevFest Website.
 
 This is a polymer web app, it follow Google material design and responsive web design rule , itlooks realy amazing.
 
